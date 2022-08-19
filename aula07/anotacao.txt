@@ -21,5 +21,3 @@ eu hoje conseguir criar um repositorio local e remoto sozinho
 primeiro deu ruim k, eu esqueci que voce escolher um pasta (php) para virar repositorio, ela esta dentro de outra pasta (hostdoc). Isso é importante, voce poe nome certinho da pasta php e mostra o caminho onde a pasta ta guardada, que é até encontrar pasta hostdoc e seleciona-la
 
 
-
-world
