@@ -15,7 +15,6 @@
             $m = ($nota1+$nota2)/2;
             echo "A média entre $nota1 e $nota2 é $m<br>";
             echo "<br>A situção do aluno é ". (($m <6)?"REPROVADO": "APROVADO");
-            echo "<br>A priemeira nota " . $nota1;
             /*$sit = ($m <6)?"REPROVADO": "APROVADO";
             echo "A situção do aluno é $sit"; código antigo com a criação da variavel sit */
             
