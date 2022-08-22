@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../_css/estilo.css">
-    <title>Resposta do professor eleições</title>
+    <title>Interligando formulários HTML com PHP</title>
 </head>
 <body>
+    
     <div>
         <?php
-            $ano = $_GET["an"];
-            $idade = 2022 - $ano;
-            echo "Quem nasceu em $ano tem idade de $idade anos";
-            $tipo = ($idade >= 18 && $idade<65) ? "OBRIGATORIO" : "NAO OBRIGATORIO";
-            echo "<br>E dessa forma seu voto é $tipo ";
+            $numero = $_GET["num"];
+            $num_raizq = sqrt($numero);
+            echo "<h1>ex01 Ler um valor e mostrar sua raiz quadrada</h1>";
+            echo "Você informou $numero e sua raiz quadadra é $num_raizq ";
+        
         ?>
     </div>
     
