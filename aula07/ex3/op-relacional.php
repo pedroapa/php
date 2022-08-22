@@ -13,9 +13,10 @@
         $idade = $_GET["ida"];
         $resposta = " ";
         echo "<h1>ex04 Mostre se um eleitor é obrigado a voltar ou não.</h1>";
-        echo "<br>Informe na URL a sua idade e descubra se é obrigado a votar nessa eleição de 2022."
+        echo "<br>Informe na URL a sua idade e descubra se é obrigado(a) a votar nessa eleição de 2022.";
 
-        $resposta = ($idade >= 18 && $idade <= 70) ? $resposta = "Sim" : $resposta = "Não";
+        $resposta = ($idade >= 18 && $idade <= 64) ? "Sim" : "Não";
+        echo "<br> Você tem $idade anos e $resposta é obrigado(a) a votar esse ano";
         
         ?>
     </div>
