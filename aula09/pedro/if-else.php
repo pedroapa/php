@@ -10,23 +10,22 @@
 <body>
     <div>
         <?php
-            $ano_nascimento = $_GET["ano"];
+            $ano_nascimento = isset($_GET["ano"])?$_GET["ano"]:0;
             $idade = date('Y') - $ano_nascimento;
             $votar = false;
             $dirigir = false;
-            
+
             if ($idade >= 18) {
                 $votar = true;
                 $dirigir = true;
-                echo "Aqui ta certo";
+                
             }
             else {
                 $votar = false;
                 $dirigir = false;
             }
             
-            echo "Você nasceu em $ano_nascimento, tem $idade anos e sua situação sobre votar: " . (($idade === 1)?"obrigatório": "não é obrigado");
-            echo "<br> $votar";
+            echo "Você nasceu em $ano_nascimento, tem $idade anos e sua situação sobre votar: " . (($votar == true)?"obrigatório": "não é obrigado") . " e sobre dirigir é " . (($dirigir == true)?"permitido":"não permitido");
         ?>
         <a href="estru-condiconal.html" target="_self" rel="prev"><br> Voltar</a>
     </div>
