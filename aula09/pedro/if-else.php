@@ -11,7 +11,7 @@
     <div>
         <?php
             $ano_nascimento = isset($_GET["ano"])?$_GET["ano"]:0;
-            $idade = date('Y') - $ano_nascimento;
+            $idade = date("Y") - $ano_nascimento;
             $votar = false;
             $dirigir = false;
 
