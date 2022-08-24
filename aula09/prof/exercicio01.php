@@ -10,8 +10,8 @@
 <body>
     <div>
         <?php
-            $a = isset($_GET["ano"])?$_GET["ano"]:1900;
-            $i = date("Y") - $a;
+            $a = isset($_GET["ano"])?$_GET["ano"]:1900; # a - ano
+            $i = date("Y") - $a; # i - idade
             echo "Você nasceu em $a e tem $i anos <br>";
 
             if ($i >= 18) {
