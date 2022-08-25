@@ -16,7 +16,7 @@
             $situacao = "";
             echo "A média entre " . number_format($nota1,2) . " e " . number_format($nota2, 2) . " é igual a " . number_format($media, 2);
             
-            if ($media > 5) {
+            if ($media < 5) {
                 $situacao = "REPROVADO";
             }
             elseif ($media >= 5 && $media < 7) {
