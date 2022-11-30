@@ -13,7 +13,7 @@
         <?php 
             $titulo = $_GET["titulo"];
             $fonte = $_GET["fonte"];
-            echo "<h1>$titulo</h1>";
+            echo "<h1>$titulo</h1>"; 
 
 
             
