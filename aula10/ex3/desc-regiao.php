@@ -10,7 +10,7 @@
 <body>
     <div>
         <?php
-            $estado = isset($_GET["cEstado"])?$_GET["cEstado"]:"SP";
+            $estado = isset($_GET["tEstado"])?$_GET["tEstado"]:"";
 
             switch ($estado){
                 #Região Norte
@@ -60,6 +60,8 @@
             }
 
         ?>
+        <br>
+        <a href="regiao-estado.html" target="_self" rel="prev">Voltar</a>
 
     </div>
     
