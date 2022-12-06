@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../_css/estilo.css">
+    <title>Usando Switch para Escolher uma Opção</title>
+</head>
+<body>
+    <div>
+        <h1>Ler um número e qual operação realizar: dobro, cubo ou raiz quadrada.</h1>
+        
+        <form action="esc-opc.php" method="get">
+            <p><label for="cNum">Numero: </label>
+            <input type="number" id="cNum" name="tNum" placeholder="Valor inteiro" min="-99999" max="99999" >
+            </p>
+            <p><label for="cOp">Opção: </label>
+            <select name="tOp" id="cOp">
+                <option value="dobro" selected>Dobro</option>
+                <option value="cubo">Cubo</option>
+                <option value="raiz">Raiz Quadrada</option>
+            </select>
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>

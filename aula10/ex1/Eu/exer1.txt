@@ -1,0 +1,1 @@
+Ler um número e qual operação realizar: dobro, cubo ou raiz quadrada.

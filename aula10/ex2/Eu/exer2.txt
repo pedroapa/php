@@ -1,0 +1,1 @@
+Ler o dia da semana (2 - 7) e mostrar se precisa ou não ir para escola.

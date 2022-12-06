@@ -1,0 +1,3 @@
+O professor fez diferente de mim, eu crie uma caixa de texto que la tem  as opção para serem escolhidas, mas ele usou um botão de radio. A maior diferença é que as opções deles podem ser vista o tempo todo e a pessoa bate o olho sabe que são 3 opções, sendo que a minha a pessoa tem que clicar para sacar.
+
+To vendo que esqueci de usar isset com as operações...
