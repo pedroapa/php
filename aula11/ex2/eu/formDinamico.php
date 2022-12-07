@@ -14,7 +14,7 @@
                 $conta = 1;
 
                 while( $conta <= 5 ){
-                    echo "<input type= text name= galera placeholder= escreva> <br>";
+                    echo "<input type= text name= $conta placeholder= escreva> <br>";
                     $conta++;
                 }
                 
