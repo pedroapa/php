@@ -1,0 +1,10 @@
+Mostrar uma contagem progressiva de 1 até 10.
+
+Obs: Para resolver este desafio parece que não vou precisar de uma pagina html, bastando apenas uma php que faça o loop 
+
+o php é rodado antes de mandar o html personalizado, ele não ocorre em tempo real, não naturalmente. Primeiro o servidor faz os calculos e depois manda o html personalizado, não é uma coisa que fica dinamica no lado do usuario. Não a tecnologica  php
+
+que doido kkk, o JavaScript que faz a interatividade mesmo, agora to vendo melhor. O php apenas faz o que é pedido e devolve a resposta, ele vai la faz o laço inteiro de depois devolve
+
+e se eu deixar o laço em loop? O que o php vai retornar?
+

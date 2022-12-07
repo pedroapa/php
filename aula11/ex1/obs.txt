@@ -1,0 +1,9 @@
+Como antes de mandar o html personalizado, o php vai fazendo e guardando no codigo HTML. Houve um problema, na estrutura html é usado uma div, conforme o laço vai escrevendo, chega uma hora que os numeros saem da div. 
+Não sei exatamente porque isso acontece, é como o que ta dentro da div não fosse condirado no tamanho dela.
+
+pode ser duas coisas:
+
+A div tem um tamanho fixo e quando o seu conteudo transborda, ele vai dela.
+
+Ou o php vai botando por cima o conteudo
+
