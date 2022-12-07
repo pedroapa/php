@@ -9,9 +9,11 @@
 </head>
 <body>
     <div> 
-        <form action="" method="get">
-            <input type="text" <?php $nome = "oi"; echo "name=$nome"; ?>>
-        </form>
+        <?php 
+            echo "<form action= method= get>
+                    <input type= text name= galera placeholder= escreva>
+                 </form>";
+        ?>
         
         
     </div>
