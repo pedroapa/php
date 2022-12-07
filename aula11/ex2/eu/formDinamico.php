@@ -9,12 +9,11 @@
 </head>
 <body>
     <div> 
-        <?php 
-            echo "<form action= method= get>
-                    <input type= text name= galera placeholder= escreva>
-                 </form>";
-        ?>
-        
+        <form action="" >
+            <?php 
+                echo "<input type= text name= galera placeholder= escreva>";
+            ?>
+        </form>
         
     </div>
     

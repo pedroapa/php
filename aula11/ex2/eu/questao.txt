@@ -12,3 +12,5 @@ Mudei de estrategica, vou primeiro criar um formulario na parte HTML e depois de
 
 Não to conseguindo, então como o php pode interagir com o html na questão de formulario?
 chuto que pode na hora de informar o name de um input, vou testar
+
+Consegui criar um formulario pelo echo. Agora tentar fazer a atividade
