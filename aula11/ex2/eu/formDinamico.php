@@ -11,7 +11,13 @@
     <div> 
         <form action="" >
             <?php 
-                echo "<input type= text name= galera placeholder= escreva>";
+                $conta = 1;
+
+                while( $conta <= 5 ){
+                    echo "<input type= text name= galera placeholder= escreva> <br>";
+                    $conta++;
+                }
+                
             ?>
         </form>
         
