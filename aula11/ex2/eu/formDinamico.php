@@ -8,18 +8,11 @@
     <title>Formulário Criado por Repetição</title>
 </head>
 <body>
-    <div>
-
+    <div> 
         <form action="" method="get">
-            <?php
-                $conta = 5;
-
-                while( $conta <= 5 ){
-                    echo "<input type="text" name="$conta">";
-
-                }
-            ?>
+            <input type="text" <?php $nome = "oi"; echo "name=$nome"; ?>>
         </form>
+        
         
     </div>
     

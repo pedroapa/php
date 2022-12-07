@@ -2,3 +2,13 @@ Criar dinamicamente 5 caixas de texto em um formulário.
 
 Tenho que primeiro criar a estrutura do formulairo e dentro dele usar o laço de repetição
 
+Antes de fazer esta atividade, quero premeiro saber como implementar o formulario usando o php, pelo jeito tenho que fazer ele dentro do echo.
+
+Um pensamento, deve ter hora certa de usar o php, ele entra em alguns buracos para ajudar onde pode ter um calculo ou ser processado. Tipo não faz sentido usar o php pra fazer a mesma tarefa que o HTML.
+
+Quando vou tentar usar o HTML dentro do php, a primeira coisa que noto que não abre e fecha as tags, voce é forçado a criar de forma pre historica, talvez a forma de desistimular continuar fazendo isso. Alem disso no VS code o arquivo fica vermelho, indicando que tem algo errado.
+
+Mudei de estrategica, vou primeiro criar um formulario na parte HTML e depois dentro dele criar o input com php usando echo.
+
+Não to conseguindo, então como o php pode interagir com o html na questão de formulario?
+chuto que pode na hora de informar o name de um input, vou testar
