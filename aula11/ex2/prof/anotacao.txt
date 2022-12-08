@@ -1,2 +1,31 @@
 No código do professor na parte do formulario, ele usou em alguns parametros aspas simples, exemplo no name e max. 
 Onde normalmente só com HMTML é usado com aspas duplas
+
+Na segunda parte onde ele trata das informações inseridas, é usado um laço de repetição para criar variaveis que vão dar nome de num1, num2 etc, que depois vão criar variaveis com esses nomes que por fim pegam os valores passados por parametro.
+
+ $v = "num". $i;
+
+ Esta variavel guarda cria o nome e guarda. Aquele ponto e a variavel $i, diz que no nome vai ter a palavra num seguida do valor que esta no contador.
+
+ $url = "v".$i;
+
+ Aquei vai nomeando conforme o name dos objetos. 
+ Ela cria um nome, que tem v e um número, salva e é usada mais tarde. Com essa variavel, conseguimos saber qual é o name do objeto do outro lado
+
+ Esta estrategica da certo porque temos 5 objetos identicos de caixa de texto e renomeamos na sequencia
+
+ OBS: Interessante como no php da para concatenar string com uma variavel, no exemplo era inteira, mas nada impede e ser outra string também.
+
+ No segundo while é preciso criar uma variavel que guarda o nome de novo porque não é utilizado vetor, entao em cada interação é preciso criar a variavel da variavel
+
+ Usamos variavel de variavel porque conseguimos, em tempo de execução, criar alem de uma variavel, conseguimos escolher como ela vai se chamar. Então criamos 5 nomes e em cada interação usamos esse nome para criar uma variavel que vai ser atribuida um valor do parametro para cada objeto.
+
+ seria interessante se tivesse isso no renpy, possibitaria o jogador por um nome pra si e a gente poderia guardar informações na variavel com o nome que ele botou
+
+ uma forma de criar uma variavel com um nome que pode ser qualquer um antes de a pessoa informa-lo.
+
+ podia ser usado também para o jogador dar apelidos para outros personagens, ele pode "decorar" o nome ou dar um apelido
+ O problema que o jogador não saiba qual é o nome do personagem que ele deu um apelido, mas isso pode ser usado.
+ O personagem pode não gostar o apelido ou em algum momento perguntar o seu nome para o jogador. E sem a resposta esperada, o jogador pode perder alguns pontos com a pessoa.
+
+ 
