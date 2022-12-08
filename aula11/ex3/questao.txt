@@ -1,0 +1,104 @@
+Exercicios 3
+Criar um contador personalizável.
+
+Obs: A variavel que conta pode ser incrementada ou decrementada.
+
+Sempre partindo do primeiro numero para chegar no outro
+
+qual é a diferença em ir de 1 até 10 para ir do 10 até o 1?
+
+no primeiro caso, o 10 vai ser o limite que podemos chegar
+e o contador vai ser incrementado em 1
+
+No segundo o 1 fica dentro do teste e o contador vai ser decrementado
+
+então depende se o primeiro valor é maior ou não do segundo. Isso implica em qual 
+
+oia, podemos usar os mesmo numeros, mas qual for o primeiro, vão acontecer coisas diferentes.
+
+A incrementação tem que ser flexivel, ela pode ser se usarmos um if na hora que for incrementar
+
+e na hora de montar o teste do while? Ele precisa ser flexivel tambem, aparentimente
+Ex: a opção do teste pode ser entre os dois "<=" ou ">="
+
+humm
+
+enquanto 1 <= 10
+
+
+enquanto 10 >= 1
+
+enquanto 80 >= 20
+
+enquanto 20 <= 80
+
+mesmo que parta de 80 por exemplo, ainda vai o 80 vai ser maior que 20, então se eu manter essa lógica de o menor do lado esquerdo e o maior do direito, mesmo que tenho que incrementar do 80 até virar 20, a distancia dos dois se mantem sem eu ter que precisar mexer no simbolo ">=" ou "<="
+
+então primeiro objetivo, descobrir qual é o maior, sendo, quem foi o primeiro a ser inserido.
+
+com base nisso, sempre vai ter um teste de if na hora de incrementar.
+
+--------
+porque se eu não achar uma logica, terei que criar dois laços de repetição dentro de um if e else, caso primeiro valor inserido maior, vai acontecer de um jeito, caso não vai ser diferente.
+
+Pensei nisso porque não da para usar esta logica: 
+enquanto 20 <= 80
+ quando querer que o 80 diminua até chegar a 20
+Porque o 80 que vai diminuindo, o 20 permanece o mesmo. 
+
+hummm....
+enquanto 20 <= 80
+enquanto 20 <= 70
+enquanto 20 <= 60
+enquanto 20 <= 50
+enquanto 20 <= 30
+enquanto 20 <= 19 falso
+
+hummm, talvez de para usar esta logica sim. É tão estranho porque sempre usamos o valor da direita como uma constnnte, usar como um valor fixo parece que vai dar um erro kkk
+
+blz então me preocupar apenas com a parte da incrementação.
+
+sempre vai usar "<=" e vai ter duas variaveis, a do lado esquerdo e a do direito
+ambos pode ser candidata a  variavel que vai ser incrementada
+
+a da esquerda aumenta e a da direita diminuindo
+
+fazer assim ou criar um codigo com dois laços de repetição, onde estão em caminhos diferentes. Se for por um, o numero inicial vai ser incrementado, do outro vai ser decrementado. 
+Melhor fazer esta resolução primeiro
+
+e nas duas possibilidade, a quantidade de incrmento/decremento vai ser escolhido pelo usuario
+
+se (incial < final) entao    //Incremento  e inicial menor
+
+    enquanto ( inicial < final)faca
+        escreva inicial
+        inicial <- inicial + conta
+        conta <- conta + conta
+senao  //decremento
+    enquanto ( inicial > final)faca
+        escreva inicial
+        inicial <- inicial - conta
+        conta <- conta - conta
+fimSe
+
+OBS:
+O valor que aparece na tela é da variavel inicial, não pode ser do conta porque o inicial pode ser diferente de 0. Ex:
+o inicial é 8  e o incremento 5
+
+vai mostrar na tela 8 e depois 13
+
+tem que fazer de um jeito que não adicione um valor a variavel inicial caso não de 
+
+ex: o contador anda 5 em 5, mas falta 3 para a repetição parar, na teoria é preciso somar 5, fazer o teste 
+da para focar só em mostrar, ele vai mostrar um número, mas na variavel vai estar outro valor la... 
+
+to pensando se devia criar duas variveis para ficarem responsaveis pelo incremento. Uma contaria e seu valor iria ser atualizado a cada interação. Outra para saber o quanto é preciso para aumentar ou diminuir
+
+mas pensando bem é preciso apenas de uma. Uma que pega o valor e depois ela vai se atualizando com ela mesma. Ex:
+conta <- conta + conta ou conta +<- conta
+
+Independente se vai ser incremento ou decremento, sempre vai partir do inicial para o final, este é o padrão
+
+
+
+

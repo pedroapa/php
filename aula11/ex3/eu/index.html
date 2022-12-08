@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../_css/estilo.css">
+    <title>Contador Personalizável</title>
+</head>
+<body>
+    <div>
+        <form action="contando.php" method="get">
+            <p><label for="cInial">Inicio: </label>
+            <input type="number" name="tInicial" id="cInicial" min="-9999" max="9999">
+            </p>
+            <p><label for="cFinal">Final: </label>
+            <input type="number" name="tFinal" id="cFinal" min="-9999" max="9999">
+            </p>
+            <p><label for="cCont">Incremento</label>
+            <select name="tCont" id="cCont">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            </p>
+            <!--Botão-->
+            <input type="submit" value="Mandar">
+        </form>
+
+    </div>
+    
+</body>
+</html>
