@@ -10,21 +10,29 @@
 <body>
     <div>
         <?php
-            $inicial = isset($_GET["tIncial"]) ? $_GET["tInicial"] : 1;
+            $inicial = isset($_GET["tInicial"]) ? $_GET["tInicial"] : 1;
             $final = isset($_GET["tFinal"]) ? $_GET["tFinal"] : 10;
             $conta = isset($_GET["tCont"]) ? $_GET["tCont"] : 1;
             
             if( $inicial < $final ){
-                while( $inicial < $final ){
+                while( $inicial <= $final ){
                     echo $inicial. " ";
                     $inicial += $conta;
-                    $conta += $conta;
                 }
             }
             else {
-                echo "Erro";
-            }
+                if( $inicial > $final ){
+                    while( $inicial >= $final ){
+                        echo $inicial. " ";
+                        $inicial -= $conta;
+                    }
 
+                }
+                else{
+                    echo "Erro, valores invalidos.";
+                }
+            }
+           
         ?>
     </div>
     

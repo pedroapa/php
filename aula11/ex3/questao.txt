@@ -99,6 +99,11 @@ conta <- conta + conta ou conta +<- conta
 
 Independente se vai ser incremento ou decremento, sempre vai partir do inicial para o final, este é o padrão
 
+Fazendo eu notei que não precisava usar a instrução 
+$conta = $conta + $conta;
+
+dava erro, porque os valores do inicial por exemplo subiam muito rápido. 
+o conta subia exponencialmente
 
 
 
