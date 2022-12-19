@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../_css/estilo.css">
-    <title>Testando Conexão</title>
+    <title>Aula 30 de PHP - MySQL: Comando Insert</title>
 </head>
 <body>
     <div>
-        <h1>Testando</h1>
-
         <?php
-            include "conexao.php";
+        include "conexao.php";
 
-            $vNome = "";
-            $vRua = "";
-            $vCidade = "";
-            $vEstado = "";
-            $vLimit_credit = "";
+        $vNome = "Luiz";
+        $vRua = "Arvore";
+        $vCidade = "Taubaté";
+        $vEstado = "SP";
+        $vLimit_credit = 100;
 
-            $sql = "insert into customers
-            (id, name, street, city, state, credit_limit)
-            values
-            (DEFAULT, '$vNome', '$vRua', '$vCidade', '$vEstado', $vLimit_credit)";
-            
+        $sql = "insert into customers
+        (id, name, street, city, state, credit_limit)
+        values
+        (DEFAULT, '$vNome', '$vRua', '$vCidade', '$vEstado', $vLimit_credit)";
 
-            mysqli_close($conn);
-        ?>
+        $res = mysqli_query($conn, $sql);
+        $num = mysqli_affected_rows($conn);
+
+        echo "$num registro inserido.";
+        
+
+        mysqli_close($conn);
+    ?>
+        
+
     </div>
     
 </body>
