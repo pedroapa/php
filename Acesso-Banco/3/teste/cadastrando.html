@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../_css/estilo.css">
+    <title>Cadastrando Nome e Idade</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro</h1>
+
+        <form action="guardaBanco.php" method="get">
+            <fieldset><legend>Dados Pessoais</legend>
+                <p>
+                    <label for="cNome">Nome: </label>
+                    <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Insira o seu nome">
+                </p>
+                <p>
+                    <label for="cIdade">Idade: </label>
+                    <input type="number" name="tIdade" id="cIdade" min="0" max="120">
+                </p>
+                <!--Botão enviar-->
+                <input type="submit" value="Cadastrar">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

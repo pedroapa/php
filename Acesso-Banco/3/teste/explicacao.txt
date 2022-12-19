@@ -1,0 +1,4 @@
+acho que ja consigo testar se aprendi mesmo. To pensando em criar uma tabela mais simples para por meu conhecimento a prova, onde ela salve apenas o nome e a idade de uma pessoa
+
+posso criar uma pagina html que pega as informações e php que guarda em variveis e depois salva no banco de dados
+
