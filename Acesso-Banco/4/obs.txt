@@ -1,0 +1,8 @@
+Atraves desta atividade do professor, ele mostrou um jeito de lidar com número com virgula, ja que não conheço um input que pede números assim.
+
+Agora é aprendendo a como lidar, para aprender como guardar no banco os campos dimensionados.
+
+<input type="text" name="F_Preco" size="10"><br><br>
+$vPreco = $_POST["F_Preco"];
+$sql = "INSERT INTO produtos VALUES ('$vCod', '$vProd', $vPreco, $vQtde)";
+

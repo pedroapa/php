@@ -20,15 +20,17 @@
             $vPreco = $_POST["F_Preco"];
             $vQtde = $_POST["F_Qtde"];
 
-            $sql = "INSERT INTO test ('$vCod', '$vProd', $vPreco, $vQtde)";
+            $sql = "INSERT INTO produtos VALUES ('$vCod', '$vProd', $vPreco, $vQtde)";
             $res = mysqli_query($conn, $sql);
             $linhas = mysqli_affected_rows($conn);
 
+            echo "<br>LINHAS = $linhas <br>";
+
             if( $linhas == 1 ){
-                echo "Registro gravado com sucesso <br>";
+                echo "<br>Registro gravado com sucesso <br>";
             }
             else{
-                echo "Falha na gravação do registro <br>";
+                echo "<br>Falha na gravação do registro <br>";
             }
 
             mysqli_close($conn);

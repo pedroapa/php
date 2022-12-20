@@ -12,7 +12,7 @@
         <?php
         include "conexao.php";
 
-        $vNome = "Luiz";
+        $vNome = "Elitor Ali";
         $vRua = "Arvore";
         $vCidade = "Taubaté";
         $vEstado = "SP";
