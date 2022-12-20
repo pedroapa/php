@@ -6,7 +6,7 @@
     $vPreco = $_POST["F_Preco"];
     $vQtde = $_POST["F_Qtde"];
 
-    $sql = "INSERT INTO test ('$vCod', '$vProd', '$Preco', '$vQtde')";
+    $sql = "INSERT INTO test ('$vCod', '$vProd', '$vPreco', '$vQtde')";
     $res = mysqli_query($conn, $sql);
     $linhas = mysqli_affected_rows($conn);
 
