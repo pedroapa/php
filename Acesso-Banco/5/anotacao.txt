@@ -1,0 +1,4 @@
+Tomar cuidado na hora de usar o mysqli_affected_rows() de quando usar mysqli_num_rows(). Um retonar linhas modificadas enquanto outro quantas linhas foram geradas?
+
+Usei o affected quando inserir dados e agora no select o professor ta usando mysqli_num_rows.
+
