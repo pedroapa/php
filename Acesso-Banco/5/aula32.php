@@ -14,8 +14,9 @@
         <?php
             include "conexao.php";
 
-            $vCat = $_POST["F_Cat"];
-            $sql = "SELECT * FROM produtos WHERE cat = $vCat";
+            $vCat1 = $_POST["F_Cat1"];
+            $vCat2 = $_POST["F_Cat2"];
+            $sql = "SELECT * FROM produtos WHERE cat = $vCat1 OR cat = $vCat2";
 
             $res = mysqli_query($conn, $sql);
             $linhas = mysqli_num_rows($res);
