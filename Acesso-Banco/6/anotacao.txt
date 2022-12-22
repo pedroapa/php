@@ -1,0 +1,5 @@
+No css que eu peguei da internet, quando eu imprimi tudos os registros de duas categorias diferentes, veio tanto que a caixa onde fica o texto foi estourada, o conteudo vazou por baixo. Estou achando que o culpado seja que o arquivo não foi escrito para ser responsivo, ele não estica quando é necessario, tendo um tamanho fixo.
+Eu poderia fazer uma revisão para recriar um arquivo dinamico, que altere o tamanho conforme o conteudo.
+
+Se não for este problema, entao o php que quando acrescenta algo no html, o negocio não é computabilizado como os demais elementos, ele meio que insere mesmo que fique em cima de algo. Mas, acho esta possibilidade dificil.
+

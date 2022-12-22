@@ -10,7 +10,8 @@
 <body>
     <div>
         <h1>Bem Vindo</h1>
-        <h2>Veja quantidade de registro da categoria 1</h2>
+        <h2>Registros da Tabela Produtos</h2>
+        <p>Codigo    | Produto    | Preço    | Quantidade    | Categoria</p>
         <?php
            
            include "conexao.php";
@@ -28,7 +29,7 @@
                 $vQtde = $vReg[3];
                 $vCat = $vReg[4];
 
-                echo "$vCod<br>$vProd<br>$vPreco<br>$vQtde<br>$vCat<br>";
+                echo "$vCod  $vProd  $vPreco  $vQtde  $vCat<br>";
            }
 
            mysqli_close($conn);
@@ -36,7 +37,7 @@
 
         ?>
         <br>
-        <a href="formAula-32.html">Voltar</a>
+        <a href="formAula-33.html">Voltar</a>
     </div>
     
 </body>
