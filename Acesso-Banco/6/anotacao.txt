@@ -3,3 +3,7 @@ Eu poderia fazer uma revisão para recriar um arquivo dinamico, que altere o tam
 
 Se não for este problema, entao o php que quando acrescenta algo no html, o negocio não é computabilizado como os demais elementos, ele meio que insere mesmo que fique em cima de algo. Mas, acho esta possibilidade dificil.
 
+OBS: Por esta este erro de impressão, eu tirei o php da div para ver se melhorava, ficou melhor, mas achei que devia comentar a parte que link com CSS, para ficar sem estilo mesmo. Dai apareceu uma duvida, o que iria ser apresentado primeiro? Um h1 que tava dentro do body ou php que tava fora da tag html, mas antes. Para minha surpresa o que o php criou apareceu antes do h1, mesmo estando fora da tag HTML.
+
+No final o professor pois o conteudo dentro de um tabela, em vez de criar outro arquivo, vou fazer por cima e vai ter commit do jeio antigo.
+
