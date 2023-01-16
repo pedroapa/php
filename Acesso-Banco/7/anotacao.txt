@@ -1,0 +1,5 @@
+        PROXIMA TAREFA
+seria daora eu criar uma pagina que no home ja mostrasse todos os regristros cadastrados, ai teria duas opções. A primeira de inserir novos registros ou de deletar algum.
+Fazer tudo sozinho para testar se eu aprendi de verdade.
+
+No caso para buscar os registros do banco, a pagina principal precisa ser do tipo php, porque html não reconhece comando php
