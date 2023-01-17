@@ -76,7 +76,7 @@
             ?>
         </table>
         <a href="registro.html" target="_self" rel="next">Cadastrar</a>
-        <a href="apagar-registro.html" target="_self" rel="next">Deletar</a>
+        <a href="apagar-registro.php" target="_self" rel="next">Deletar</a>
     </main>
     
 </body>

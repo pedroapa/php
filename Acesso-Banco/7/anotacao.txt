@@ -29,6 +29,12 @@ Agora estou tendo duvida em como construir a tabela onde vai mostrar os registro
   HORA DELETAR
 Construir a tabela, pegar o id para por no radio que vai passar pro outra pagina php quando a pessoa mandar formulario.
 
+Estou pensando em por um radio no final da tabela... ou pode ser na frente... tipo ela ocupando um espaço...
+talvez atras seja melhor mesmo.
+
+Putz, estou usando tabela, mas preciso usar formulario
+não é bom usar a  tabela para ser estrutura, entao vou usar só formulario
+
                 IMPORTANTE
 Na hora de dar satifação para o usuario mostrando que o cadastro foi feito com sucesso, usamos a função mysqli_affected_rows(), obs: que usa a conexão como parametro!!
 
