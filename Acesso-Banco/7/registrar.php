@@ -14,7 +14,7 @@
             $vNome = isset($_GET["tNom"])? $_GET["tNom"]: "";
             $vRua = isset($_GET["tRua"])? $_GET["tRua"]: "";
             $vCid = isset($_GET["tCid"])? $_GET["tCid"]: "";
-            $vEst = isset($_GET["tESt"])? $_GET["tEst"]: "";
+            $vEst = isset($_GET["tEst"])? $_GET["tEst"]: "CU";
             $vLim_credito = isset($_GET["tLim-credito"])? $_GET["tLim-credito"]: "0.0";
 
             $sql = "INSERT INTO customers
