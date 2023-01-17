@@ -1,0 +1,1 @@
+Este erro na hora de imprimir o estado fica null ou sem nada. Pode ser um problema no codigo quando vai pegar os parametros ou na hora de salvar.

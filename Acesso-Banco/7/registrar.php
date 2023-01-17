@@ -17,10 +17,10 @@
             $vEst = isset($_GET["tESt"])? $_GET["tEst"]: "";
             $vLim_credito = isset($_GET["tLim-credito"])? $_GET["tLim-credito"]: "0.0";
 
-            $sql = "INSERT INTO
+            $sql = "INSERT INTO customers
             (id, name, street, city, state, credit_limit)
             VALUES
-            (DEFAULT, $vNome, $vRua, $vCid, $vEst, $vLim_credito)";
+            (DEFAULT, '$vNome', '$vRua', '$vCid', '$vEst', $vLim_credito)";
             $res = mysqli_query($conn, $sql);
 
             if( mysqli_affected_rows($conn) ){
