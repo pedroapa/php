@@ -5,6 +5,6 @@
     $database = "db_empresa";
 
     $conn = mysqli_connect($host, $user, $password);
-    /*mysqli_select_db($database); */
+    mysqli_select_db($conn, $database); 
 
 ?>
