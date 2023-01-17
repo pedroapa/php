@@ -13,6 +13,22 @@ Eu lembrei como se faz conexão, estava quase esquecendo, agora só      faltou 
 
 Agora estou tendo duvida em como construir a tabela onde vai mostrar os registros do banco. Confunde por causa do laço, então tenho que abrir e fechar o td de um jeito especial, sei la.
 
+        A essencia esta pronta, agora falta eu criar uma pagina onde de para excluir ou incluir novos registros, para deletar vou criar checkbox onde a pessoa vai selecionando e depois pede para excluir.
+        Mas como vou fazer para excluir varios registros ao mesmo tempo?
+
+        No formulario, quando selecionado o checkbox, com if, indo inserindo os registros na variavel que vai ser executada para deletar. Nesta forma de resolver, seria criado o comando sql, pegando a variavel string e adicionando outros nomes la e depois juntar o resto do codigo. Ex:
+        $sql = "SELECT ";
+        $sql = ".registros";
+        $sql = 
+
+        hummm. na verdade para deletar é preciso apenas do id. Então quando seleciona a caixa box, precisamos correr atras do id e por ele dentro do código php. Mas o problema é que a quantidade de registro que serão deletados não temos de atemão, ou seja é algo dinamico, podendo apagar 2 ou 7 registros. Como vou preparar o codigo para isso?
+        Da para resolver isso limitando apagar um registro por vez. Assim sempre será apagado 1 em 1. 
+        Talvez eu faça assim inicialmente, da mesma forma que registro um por vez.
+        Então em vez de usar o checkbox, vou usar o radio para apagar 
+
+  HORA DELETAR
+Construir a tabela, pegar o id para por no radio que vai passar pro outra pagina php quando a pessoa mandar formulario.
+
 
 
 OBS: Usar o php é meio doido, voce tem que pensar como ele vai se comportar no futuro com o html. Tipo ele no futuro vai criar um arquivo html, então quando este arquivo for gerado os comando e as coisas em php deixaram de existir, voce cria ele no meio do html, ex formulario e depois ele consegue interagir com o mesmo.

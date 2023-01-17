@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main {
+           text-align: center;
+        }
+
+    </style>
+    <title>Cadastrando Novos Usuarios</title>
+</head>
+<body>
+    <main>
+        <h1>Cadastramento Rápido</h1>
+        <form action="registrar.php" method="get">
+            <label for="cNom"><p>Nome </p></label>
+            <input type="text" name="tNom" id="cNom" size="40" maxlength="30" placeholder="Digite nome inteiro">
+            <label for="cRua"><p>Rua </p></label>
+            <input type="text" name="tRua" id="cRua" size="40" maxlength="30">
+            <label for="cCid"><p>Cidade</p></label>
+            <input type="text" name="tCid" id="cCid" size="40" maxlength="30" >
+            <label for="cEst"><p>Estado</p></label>
+            <input type="text" name="tEst" id="cEst" size="8" maxlength="2" placeholder="Digite a sigla">
+            <label for="cLim-credito"><p>Limite Credito</p></label>
+            <input type="text" name="tLim-credito" id="cLim-credito" size="20" maxlength="9" placeholder="Use '.' no lugar da virgula">
+
+            <br> <br>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+    
+</body>
+</html>
