@@ -35,7 +35,7 @@
                     include "conexao.php";
                     $sql = "SELECT id, name, street, city, state, credit_limit FROM customers";
                     $res = mysqli_query($conn, $sql);
-
+                    $cont = 0;
                     while( $reg = mysqli_fetch_row($res) ){
                         $id = $reg[0];
                         $nome = $reg[1];
@@ -45,7 +45,8 @@
                         $lim_credito = $reg[5];
             
                         echo "$id    $nome    $rua    $cidade    $estado    $lim_credito ";
-                        echo "<input type='radio' name='tExclosao' value'$id'> <br>";
+                        echo "<input type='radio' name='tExclosao' id='$cont' value='$id'> <br>";
+                        $cont += 1;
                     }
                 ?>
                 <br>
