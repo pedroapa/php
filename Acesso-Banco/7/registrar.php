@@ -22,7 +22,13 @@
             VALUES
             (DEFAULT, $vNome, $vRua, $vCid, $vEst, $vLim_credito)";
             $res = mysqli_query($conn, $sql);
-            $linhas = mysqli_affected_rows($conn, $res);
+
+            if( mysqli_affected_rows($conn) ){
+                echo "Cadastro feito com sucesso.";
+            }
+            else {
+                echo "Erro no cadastro.";
+            }
 
             mysqli_close($conn);
         ?>

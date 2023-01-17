@@ -29,7 +29,8 @@ Agora estou tendo duvida em como construir a tabela onde vai mostrar os registro
   HORA DELETAR
 Construir a tabela, pegar o id para por no radio que vai passar pro outra pagina php quando a pessoa mandar formulario.
 
-
+                IMPORTANTE
+Na hora de dar satifação para o usuario mostrando que o cadastro foi feito com sucesso, usamos a função mysqli_affected_rows(), obs: que usa a conexão como parametro!!
 
 OBS: Usar o php é meio doido, voce tem que pensar como ele vai se comportar no futuro com o html. Tipo ele no futuro vai criar um arquivo html, então quando este arquivo for gerado os comando e as coisas em php deixaram de existir, voce cria ele no meio do html, ex formulario e depois ele consegue interagir com o mesmo.
 
