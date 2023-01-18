@@ -44,9 +44,8 @@
                         $estado = $reg[4];
                         $lim_credito = $reg[5];
             
-                       echo "<select name='tRegistro' id='cRegistro'>
-                                <option value='$id'>$nome    $rua    $cidade    $estado    $lim_credito </option>
-                            </select>"
+                        echo "<label for='$id'>$id    $nome    $rua    $cidade    $estado    $lim_credito</label> ";
+                        echo "<input type='radio' name='tExclosao' value='$id'> <br>";
                     }
                 ?>
                 <br>

@@ -43,3 +43,5 @@ Se conseguir, tentar fazer com outro input, por exemplo o select
 
 OBS: Usar o php é meio doido, voce tem que pensar como ele vai se comportar no futuro com o html. Tipo ele no futuro vai criar um arquivo html, então quando este arquivo for gerado os comando e as coisas em php deixaram de existir, voce cria ele no meio do html, ex formulario e depois ele consegue interagir com o mesmo.
 
+Será que é possivel usar tabela junto com o input radio?
+vou tentar primeiro com select mesmo
