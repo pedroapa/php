@@ -14,9 +14,9 @@
             margin: auto;
         }
 
-        tr#campos {
+       /* tr#campos {
             text-align: center;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -44,8 +44,8 @@
                         $estado = $reg[4];
                         $lim_credito = $reg[5];
             
-                        echo "$id    $nome    $rua    $cidade    $estado    $lim_credito ";
-                        echo "<input type='radio' name='tExclosao' value'$id'> <br>";
+                        echo "<label for='$id'>$id    $nome    $rua    $cidade    $estado    $lim_credito</label> ";
+                        echo "<input type='radio' name='tExclosao' value='$id'> <br>";
                     }
                 ?>
                 <br>

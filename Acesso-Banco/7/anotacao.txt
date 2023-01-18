@@ -38,5 +38,8 @@ não é bom usar a  tabela para ser estrutura, entao vou usar só formulario
                 IMPORTANTE
 Na hora de dar satifação para o usuario mostrando que o cadastro foi feito com sucesso, usamos a função mysqli_affected_rows(), obs: que usa a conexão como parametro!!
 
+
+Se conseguir, tentar fazer com outro input, por exemplo o select
+
 OBS: Usar o php é meio doido, voce tem que pensar como ele vai se comportar no futuro com o html. Tipo ele no futuro vai criar um arquivo html, então quando este arquivo for gerado os comando e as coisas em php deixaram de existir, voce cria ele no meio do html, ex formulario e depois ele consegue interagir com o mesmo.
 
