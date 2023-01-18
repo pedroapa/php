@@ -1,0 +1,3 @@
+Este erro, ele imprimiu varios select, onde voce clica para aparecer mais opções, aparece apenas uma.
+
+Acredito que este é um erro porque deixei o select dentro do laço, então em cada interação é criado um select diferente.

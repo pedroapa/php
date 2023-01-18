@@ -17,7 +17,7 @@
         <?php
             include "conexao.php";
 
-            $vId = isset($_GET["tExclosao"])? $_GET["tExclosao"]: "0";
+            $vId = isset($_GET["tRegistro"])? $_GET["tRegistro"]: "0";
 
             $sql = "DELETE FROM customers
             WHERE id = '$vId'
