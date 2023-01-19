@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exclusão de Registro</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        main {
+            background-color: white;
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            text-align: center;
+            
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        td#escolha {
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
     <main>
@@ -33,13 +67,13 @@
 
                             echo "<tr>";
                             echo "<td>$vNome</td><td>$vCpf</td><td>$vNasc</td>";
-                            echo "<td><input type='radio' name='sel' value='$id'></td>";
+                            echo "<td id='escolha'><input type='radio' name='sel' value='$id'></td>";
                             echo "</tr>";
 
                         }
                     ?>
                 </table>
-                
+
                 <br>
                 <input type="submit" value="Excluir">
                 <input type="reset" value="Limpar">
