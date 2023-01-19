@@ -1,0 +1,9 @@
+Consegui criar uma tabela que mostra os registro e tem um campo para selecionar, o problema que fiz sem por formulario e agora estou em duvida em que lugar ele vai ficar?
+dentro do laço vai ficar fazendo varios formularios, mas fora também não vai dar ruim?
+estou em duvida de como vai ser interação do formulario com a tabela.
+
+Blz, no codigo aonde por o formulario? Sei que posso por em qualquer lugar, mas queria no lugar mais lógico.
+To achando estranho querer por dentro do script php, sei la, acho que da para por fora sem menor problema, então porque por dentro?
+
+Fiz tudo como pensei que era o certo e os botões de submit e reset ficaram em cima da tabela, então estou achando que a tabela deve ficar dentro do formulario
+
