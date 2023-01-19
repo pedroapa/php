@@ -19,7 +19,7 @@
         $sql = "INSERT INTO usuario 
         (id, nome, cpf, dt_nascimento)
         values
-        (DEFAULT, '$vNome', '$vCpf', $vDt_nasc)";
+        (DEFAULT, '$vNome', '$vCpf', '$vDt_nasc')";
         $res = mysqli_query($conn, $sql);
 
         if(mysqli_affected_rows($conn)){

@@ -8,6 +8,7 @@
     <style>
         body {
             background-color: blue;
+            padding: 15px;
         }
 
         main {
