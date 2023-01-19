@@ -20,7 +20,7 @@
             <?php
                 include "conexao.php";
 
-                $sql = "SELECT nome, cpf, dt_nascimento FROM usuario";
+                $sql = "SELECT id, nome, cpf, dt_nascimento FROM usuario";
                 $res = mysqli_query($conn, $sql);
 
                 while( $reg = mysqli_fetch_row($res) ){
