@@ -12,11 +12,18 @@
 
         main {
             background-color: white;
-            margin: auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        main > form {
+            text-align: center;
+            
         }
 
         table {
             border-collapse: collapse;
+            margin: auto;
         }
 
         thead {

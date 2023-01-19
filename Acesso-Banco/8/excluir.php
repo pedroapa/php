@@ -6,6 +6,7 @@
     $sql = "DELETE FROM usuario
     WHERE id = $id
     LIMIT 1";
+    $res = mysqli_query($conn, $sql);
 
     if( mysqli_affected_rows($conn)){
         echo "O registro foi excluido com sucesso.";

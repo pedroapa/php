@@ -5,8 +5,6 @@
     $vCpf = isset($_POST["tCpf"])? $_POST["tCpf"]: "111-11-1111";
     $vDt_nasc = isset($_POST["tNasc"])? $_POST["tNasc"]: "2000-01-01";
 
-    echo "Nome: $vNome <br>CPF: $vCpf <br>Data Nasc: $vDt_nasc <br><br>";
-
     $sql = "INSERT INTO usuario 
     (id, nome, cpf, dt_nascimento)
     values
@@ -19,5 +17,6 @@
     else{
         echo "Falha no cadastro.";
     }
+    echo "<br> <a href='inicial.php' target='_self' rel='prev'>Voltar Início</a>";
 ?>
     
