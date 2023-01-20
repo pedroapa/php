@@ -30,3 +30,19 @@ tava fazendo errado, depois de selecionar o registro, tenho que abrir apenas ele
 
 verdade, como eu pego o nome sem precisar de laço?
 sem precisar usar laço de repetição. É pegar os campos que foram salvos na variavel $res
+
+Mexer com estes comando é mais dificil que pensei, tem que saber tratar com a proteção, exemplo se a pessoa usar url para chegar em uma pagina que precisa de formulario, posso "proteger" fazendo salvar tipo um id, mas quando isso acontecer duas vezes, não posso usar dois ids iguais...
+
+#Problema
+Na parte onde a pessoa escolhe qual registro editar, eu queria que um fosse selecionado, mas não to conseguindo fazer.
+por estar dentro de um laço, consigo fazer todos os inputs serem checked, no navegador apenas o ultimo fica selecionado, mas é uma gambiarra. 
+Uma forma de resolver seria eu usar a função de contar quantos registros tem no banco e teria uma variavel que contaria cada interação para que quando chegasse no ultimo, selecionasse-o.
+
+para editar, colocar dentro de um input e no parametro value colocar as informações 
+
+do banco de dados
+
+2012-01-01
+
+Nunes Paulo Souza	666-66-6666	2012-01-01
+

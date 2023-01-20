@@ -46,9 +46,9 @@
             $res = mysqli_query($conn, $sql);
 
             while( $reg = mysqli_fetch_row($res) ){
-                $vNome = $reg[0];
-                $vCpf = $reg[1];
-                $vNasc = $reg[2];
+                $vNome = $reg[1];
+                $vCpf = $reg[2];
+                $vNasc = $reg[3];
 
                 echo "<tr>";
                 echo "<td class='centro'>$vNome</td><td>$vCpf</td><td class='centro'>$vNasc</td>";

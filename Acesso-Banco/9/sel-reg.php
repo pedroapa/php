@@ -52,12 +52,13 @@
                     echo "</tr>";
                 }
 
+                
+
             ?>
 
         </table>
         <br>
         <input type="submit" value="Selecionar">
-        <input type="reset" value="Limpar">
     </form>
     
 </body>

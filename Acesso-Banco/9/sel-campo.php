@@ -8,6 +8,7 @@
     <style>
         body {
             text-align: center;
+            padding: 50px;
         }
 
         
@@ -19,6 +20,25 @@
         thead {
             text-align: center;
         }
+
+        td {
+            padding: 5px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 10%;
+            padding: 1px 6px;
+        }
+
+        a:hover {
+            background-color: #d3d3d3;
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -39,20 +59,23 @@
                 $res = mysqli_query($conn, $sql);
 
                 $reg = mysqli_fetch_row($res);
+                $vId = $reg[0];
                 $vNome = $reg[1];
                 $vCpf = $reg[2];
                 $vNasc = $reg[3];
                 
                 echo "<tr>";
-                echo "<td><input type='text' name='tNom' id='cNom' value='$vNome'></td>";
-                echo "<td><input type='text' name='tCpf' id='cCpf' value='$vCpf'></td>";
+                echo "<td><input type='hidden' name='id' value='$vId'></td>";
+                echo "<td><input type='text' name='tNom' id='cNom' value='$vNome' size='40' maxlength='30'></td>";
+                echo "<td><input type='text' name='tCpf' id='cCpf' value='$vCpf' size='13'  maxlength='11'></td>";
                 echo "<td><input type='date' name='tNasc' id='cNasc' value='$vNasc'></td>";
                 echo "</tr>";
             ?>
-            <br>
-            <input type="submit" value="Salvar">
-            <a href="sel-reg.php" target="_self" rel="prev">Cancelar</a>
+            
         </table>
+        <br>
+        <input type="submit" value="Salvar">
+        <a href="sel-reg.php" target="_self" rel="prev">Cancelar</a>
     </form>
     
 </body>
