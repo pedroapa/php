@@ -46,7 +46,7 @@
                 $vNasc = $reg[2];
 
                 echo "<tr>";
-                echo "<td class='centro'>$vNome</td><td>$vCpf</td><td class='centro>$vNasc</td>";
+                echo "<td class='centro'>$vNome</td><td>$vCpf</td><td class='centro'>$vNasc</td>";
                 echo "</tr>";
             }
         ?>
