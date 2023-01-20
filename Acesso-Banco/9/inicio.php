@@ -8,11 +8,14 @@
     <style>
         body {
             padding: 55px;
+            text-align: center;
         }
 
         table {
             margin: auto;
             border-collapse: collapse;
+            text-align: left;
+            margin-bottom: 20px;
         }
 
         td {
@@ -23,6 +26,8 @@
         .centro {
             text-align: center;
         }
+
+       
 
     </style>
 </head>
@@ -51,6 +56,8 @@
             }
         ?>
     </table>
+
+    <a href="sel-reg.php" target="_self" rel="next">Editar</a>
    
 </body>
 </html>

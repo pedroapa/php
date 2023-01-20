@@ -7,3 +7,7 @@ A pessoa vai mexer no codigo inteiro, um update que tem potencial de mexer em to
 
 Melhor editar um campo por vez mesmo. Primeiro a pessoa escolhe em qual campo alterar e depois aparecer aquele campo editavel
 
+Como vou fazer para selecionar o campo?
+posso por um radio em baixo de cada campo e a pessoa seleciona qual editar, mas como vou unir o radio com o campo?
+Para escolher entre registros é mais de boa porque pego o id
+
