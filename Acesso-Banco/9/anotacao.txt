@@ -1,0 +1,9 @@
+Quero poder editar os registros que estão no  banco atraves do php.
+
+Vou usar a mesma tabela que eu estava fazendo.
+
+Por os inputs nas colunas de uma tabela.
+A pessoa vai mexer no codigo inteiro, um update que tem potencial de mexer em todos os campos, se a pessoa não mudar nada? Vou salvar a mesma coisa? Pelo jeito a forma mais simples, sim, vou salvar a mesma coisa, porque senao teria que ter controle dos campos que vão ser modificados.
+
+Melhor editar um campo por vez mesmo. Primeiro a pessoa escolhe em qual campo alterar e depois aparecer aquele campo editavel
+
