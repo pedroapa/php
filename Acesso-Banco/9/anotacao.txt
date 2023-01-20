@@ -11,3 +11,22 @@ Como vou fazer para selecionar o campo?
 posso por um radio em baixo de cada campo e a pessoa seleciona qual editar, mas como vou unir o radio com o campo?
 Para escolher entre registros é mais de boa porque pego o id
 
+melhor deixar editar todos de uma vez mesmo ne?
+
+Verdade, criando veio a duvida, como fazer no laço as tags de input sendo que são as 3  diferentes(text, text e date)?
+Sem o name e id, não tem como recuperar depois.
+
+Eu que devo estar deixando complexo querendo enviar uma tabela no meio, vou fazer sem primerio
+
+Um, então para não ter que criar no laço cada input, vou criar um input normal
+como faço para selecionar registro, mas cada input tem um numero no seu valor que vai ser processsado depois em outro arquivo php.
+
+podia tambem usar o select, onde cada opção tem um link, que leva para uma pagina que edita aquela parte. Não é nada dinamico, mas deve ser uma solução simples. Porem, como ter acesso ao link de forma dinamica?
+simplesmente criando manualmente os options do select.
+
+como usar no echo a tag select com as opções?
+
+tava fazendo errado, depois de selecionar o registro, tenho que abrir apenas ele
+
+verdade, como eu pego o nome sem precisar de laço?
+sem precisar usar laço de repetição. É pegar os campos que foram salvos na variavel $res
