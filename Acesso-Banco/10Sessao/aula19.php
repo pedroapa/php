@@ -2,6 +2,7 @@
     session_start();
     $_SESSION['vNome'] = "Bruno";
     $_SESSION['vTexto'] = "Texto para teste";
+    $_SESSION['vLog'] = "s";
 
     //unset($_SESSION['vNome']);
 

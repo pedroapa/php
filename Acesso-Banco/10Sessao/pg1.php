@@ -1,12 +1,12 @@
 <?php
     session_start();
-    $_SESSION['vCanal'] = "vlog do fessor Bruno";
 
-    echo "<h3>Segunda página</h3>";
-    echo $_SESSION['vNome'];
-    echo "<br>".$_SESSION['vTexto'];
+    if( $_SESSION['vLog'] == "s"){
+        $_SESSION['vCanal'] = "vlog do fessor Bruno";
 
-    
+        echo "<h3>Segunda página</h3>";
+        echo $_SESSION['vNome'];
+        echo "<br>".$_SESSION['vTexto'];
 
 ?>
 
@@ -25,3 +25,11 @@
     
 </body>
 </html>
+
+<?php
+     }
+     else {
+        echo "Acesso indefinido";
+     }
+
+?>
