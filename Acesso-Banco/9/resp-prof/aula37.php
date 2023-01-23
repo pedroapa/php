@@ -10,7 +10,7 @@
     <?php
         include "conexao.php";
         //UPDATE tabela  SET campo a ser alterado WHERE condição
-        $sql = "UPDATE tb_cadastro SET telefone = '3122222222' WHERE cod = '7'";
+        $sql = "UPDATE tb_cadastro SET telefone = '3188888888' WHERE cod = '6'";
 
         $res = mysqli_query($conn, $sql);
 
@@ -18,7 +18,7 @@
             echo "Registro atualizado com sucesso";
         }
         else{
-            echo "ERRO na atualizado do registro";
+            echo "ERRO na atualização do registro";
         }
 
         mysqli_close($conn);
