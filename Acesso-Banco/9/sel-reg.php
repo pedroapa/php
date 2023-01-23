@@ -50,6 +50,8 @@
                     echo "<td>$vNome</td><td>$vCpf</td><td>$vNasc</td>";
                     echo "<td><input type='radio' name='sel' value='$id'></td>";
                     echo "</tr>";
+
+                    mysqli_close($conn);
                 }
 
                 

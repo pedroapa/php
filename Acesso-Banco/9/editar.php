@@ -21,4 +21,6 @@
     }
 
     echo "<br><a href='inicio.php' target='_self' rel='prev'>Clique voltar</a>";
+
+    mysqli_close($conn);
 ?>

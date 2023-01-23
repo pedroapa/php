@@ -70,6 +70,8 @@
                 echo "<td><input type='text' name='tCpf' id='cCpf' value='$vCpf' size='13'  maxlength='11'></td>";
                 echo "<td><input type='date' name='tNasc' id='cNasc' value='$vNasc'></td>";
                 echo "</tr>";
+
+                mysqli_close($conn);
             ?>
             
         </table>
