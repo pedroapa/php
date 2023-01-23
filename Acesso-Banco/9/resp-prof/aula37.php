@@ -10,7 +10,7 @@
     <?php
         include "conexao.php";
         //UPDATE tabela  SET campo a ser alterado WHERE condição
-        $sql = "UPDATE tb_cadastro SET telefone = '3122222222' WHERE cod = '12'";
+        $sql = "UPDATE tb_cadastro SET telefone = '3122222222' WHERE cod = '7'";
 
         $res = mysqli_query($conn, $sql);
 
