@@ -54,8 +54,8 @@
                 echo "<td class='centro'>$vNome</td><td>$vCpf</td><td class='centro'>$vNasc</td>";
                 echo "</tr>";
 
-                mysqli_close($conn);
             }
+            mysqli_close($conn);
         ?>
     </table>
 

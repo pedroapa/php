@@ -51,11 +51,10 @@
                     echo "<td><input type='radio' name='sel' value='$id'></td>";
                     echo "</tr>";
 
-                    mysqli_close($conn);
+                    
                 }
 
-                
-
+                mysqli_close($conn);
             ?>
 
         </table>
