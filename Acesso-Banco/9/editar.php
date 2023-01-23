@@ -9,6 +9,7 @@
     #Comando Sql
     $sql = "UPDATE usuario
     SET nome = '$vNom', cpf = '$vCpf', dt_nascimento = '$vNasc'
+    WHERE id = $vId
     LIMIT 1";
     $res = mysqli_query($conn, $sql);
 
